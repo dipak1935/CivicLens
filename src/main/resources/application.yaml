@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: civiclens
+  datasource:
+    url: jdbc:mysql://localhost:3306/CivicLensDB
+    username: root
+    password: 1935
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  server:
+    port: 8080
+
+
